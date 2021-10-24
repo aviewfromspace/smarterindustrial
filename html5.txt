@@ -1,4 +1,5 @@
 HTML5
+week 1
 *Passion vs Persistence
 
 https://www.codecademy.com/learn/learn-html
@@ -6,6 +7,8 @@ https://codepen.io/pen/tour/welcome/start
 https://www.w3schools.com/html/default.asp
 https://learn.shayhowe.com/html-css/
 http://www.html5accessibility.com/
+http://validator.w3.org/
+
 
 HTML5:
 >New features should be based on HTML, CSS, the DOM, and JavaScript
@@ -36,3 +39,41 @@ If the server can't fulfill the request it will send back files with error codes
 >dashes -, camelCase
 >no spaces, consistent capitalization
 3. decide on an editor
+
+
+week2
+Document Object Model (DOM)
+root element <html>
+ element <head>
+  element <title>
+    text "my title"
+ element <body>
+  element <h1>
+    text "my header"
+  element <a> - attribute "href"
+    text "my link"
+    
+Three parts of a well-formed document:
+Doctype - Version of HTML that you will be using
+Head - Metadata
+Body - Displayable content
+
+Doctype: In HTML5 - <!DOCTYPE html>
+
+Head: Additional information used by the browser
+>Metadata - language, title (only thing that is displayed), supporting files (css, javascript)
+
+Body: write well formatted code
+>Always use beginning and end tags
+>Close inner tags before outer ones
+>Use valid attributes
+Use a validator to check code: http://validator.w3.org/
+
+Lesson 2: Getting to Know HTML https://learn.shayhowe.com/html-css/getting-to-know-html/
+
+Lesson 8: Creating Lists https://learn.shayhowe.com/html-css/creating-lists/ (Only read up to "List Item Styling")
+
+Lesson 9: Adding Media https://learn.shayhowe.com/html-css/adding-media/ (Only read up to "Sizing Images")
+
+Lesson 11: Organizing Your Data with Tables https://learn.shayhowe.com/html-css/organizing-data-with-tables/ (Only read up to "Combining Multiple Cells")
+
