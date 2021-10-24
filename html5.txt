@@ -1,1 +1,30 @@
-example
+HTML5
+*Passion vs Persistence
+
+https://www.codecademy.com/learn/learn-html
+https://www.w3schools.com/html/default.asp
+https://learn.shayhowe.com/html-css/
+
+HTML5:
+>New features should be based on HTML, CSS, the DOM, and JavaScript
+*Markup should replace scripting (i.e., get rid of the coding and use a tag instead)
+
+Request response cycle:
+Servers: Machines that hold shared resources
+Clients: Machines for personal use
+Client (computer) requests a page and a server responds with the appropriate files.
+URL has 3 parts:
+Protocol - how to connect
+Domain - the server
+Document (optional) - the specific file needed (most pages are made up of multiple files)
+Protocols: HTTP, HTTPS (more secure), FTP (file transfer protocol) - can be any type of file instead of just HTML
+Domain: Identifies the entity you want to connect to. Domain name is mapped to an address. top-level domain (e.g., .com)
+Internet Protocol Version 6 (IPv6) is the communication protocol that identifies computers on networks
+>Every computer has a unique IP address
+The Domain Name Server (DNS) looks up the Domain name (URL) and return the IP address
+The last part of the URL is the Document. If no document is specified, the default document is returned (e.g., index.html)
+
+Once the IP address is determined, the browser creates an HTTP request
+>Lots of hidden information in this request (e.g., header, cookies, form data)
+The server returns files, not "web pages"
+If the server can't fulfill the request it will send back files with error codes (e.g., 404 (you typed something wrong) or 500 (server error)).
