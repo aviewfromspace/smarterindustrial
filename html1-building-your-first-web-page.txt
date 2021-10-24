@@ -1,0 +1,10 @@
+https://learn.shayhowe.com/html-css/building-your-first-web-page/
+
+HTML, HyperText Markup Language, gives content structure and meaning by defining that content as, for example, headings, paragraphs, or images.
+CSS, or Cascading Style Sheets, is a presentation language created to style the appearance of content—using, for example, fonts or colors.
+As a rule, HTML will always represent content, and CSS will always represent the appearance of that content.
+CSS should not be written inside of an HTML document and vice versa.
+
+Common HTML Terms:
+http://www.scriptingmaster.com/html/HTML-terms-glossary.asp
+
