@@ -4,6 +4,7 @@ HTML5
 https://www.codecademy.com/learn/learn-html
 https://www.w3schools.com/html/default.asp
 https://learn.shayhowe.com/html-css/
+http://www.html5accessibility.com/
 
 HTML5:
 >New features should be based on HTML, CSS, the DOM, and JavaScript
@@ -28,3 +29,9 @@ Once the IP address is determined, the browser creates an HTTP request
 >Lots of hidden information in this request (e.g., header, cookies, form data)
 The server returns files, not "web pages"
 If the server can't fulfill the request it will send back files with error codes (e.g., 404 (you typed something wrong) or 500 (server error)).
+
+1. decide how you will organize your files
+2. decide on a naming convention
+>dashes -, camelCase
+>no spaces, consistent capitalization
+3. decide on an editor
