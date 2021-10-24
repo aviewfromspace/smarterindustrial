@@ -8,6 +8,8 @@ https://www.w3schools.com/html/default.asp
 https://learn.shayhowe.com/html-css/
 http://www.html5accessibility.com/
 http://validator.w3.org/
+https://jigsaw.w3.org/css-validator/
+http://www.scriptingmaster.com/html/HTML-terms-glossary.asp
 
 
 HTML5:
