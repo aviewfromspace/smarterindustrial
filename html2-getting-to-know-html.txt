@@ -1,0 +1,34 @@
+https://learn.shayhowe.com/html-css/getting-to-know-html/
+
+Semantics within HTML is the practice of giving content on the page meaning and structure by using the proper element.
+Semantic code describes the value of content on a page, regardless of the style or appearance of that content.
+There are several benefits to using semantic elements, including enabling computers, screen readers, search engines, and other devices to adequately read and understand the content on a web page.
+
+Divisions, or <div>s, and <span>s are HTML elements that act as containers solely for styling purposes. 
+As generic containers, they do not come with any overarching meaning or semantic value. 
+Both <div>s and <span>s, however, are extremely valuable when building a website in that they give us the ability to apply targeted styles to a contained set of content.
+A <div> is a block-level element that is commonly used to identify large groupings of content, and which helps to build a web page’s layout and design.
+A <span>, on the other hand, is an inline-level element commonly used to identify smaller groupings of text within a block-level element.
+
+Block-level elements begin on a new line, stacking one on top of the other, and occupy any available width. Block-level elements may be nested inside one another and may wrap inline-level elements. We’ll most commonly see block-level elements used for larger pieces of content, such as paragraphs.
+
+Inline-level elements do not begin on a new line. They fall into the normal flow of a document, lining up one after the other, and only maintain the width of their content. Inline-level elements may be nested inside one another; however, they cannot wrap block-level elements. We’ll usually see inline-level elements with smaller pieces of content, such as a few words.
+
+We’ll commonly see <div>s and <span>s with class or id attributes for styling purposes.
+Choosing a class or id attribute value, or name, requires a bit of care. We want to choose a value that refers to the content of an element, not necessarily the appearance of an element.
+
+<!-- Division -->
+<div class="social">
+  <p>I may be found on...</p>
+  <p>Additionally, I have a profile on...</p>
+</div>
+
+<!-- Span -->
+<p>Soon we'll be <span class="tooltip">writing HTML</span> with the best of them.</p>
+
+
+
+
+
+
+
