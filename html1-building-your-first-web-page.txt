@@ -18,6 +18,9 @@ Elements are identified by the use of less-than and greater-than angle brackets,
 The use of less-than and greater-than angle brackets surrounding an element creates what is known as a tag. 
 Tags most commonly occur in pairs of opening and closing tags.
 The content that falls between the opening and closing tags is the content of that element. 
+<h1> - start tag
+</h1> - closing tag
+<img scr="x.gif" /> - self-closing tag
 
 *Attributes
 Attributes are properties used to provide additional information about an element.
