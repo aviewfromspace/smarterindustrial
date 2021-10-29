@@ -47,6 +47,19 @@ Images
   title="image title" - displays on hover
   class="thumbnail" - extra formatting (height, width, position, etc.)
 />
+Note: always include alt attribute for images. If no alternative text, just leave null (i.e., alt="")
+https://www.w3.org/WAI/tutorials/images/decision-tree/
+Every image requires an HTTP request
+Every image must be downloaded, so size can be a factor (pixel size)
+Use Attributes to modify <img> tag width and height 
+>width="500px" - hardcode
+>width="50%" - preferred for relative image size (i.e., scales with browser window resize)
+
+Favicons
+Image/logo/icon next to the title of your page in the browser tab
+Must go in the <head> section
+Must be .png or special icon image
+<link rel="icon" type="image/png" href="logo.png" />
 
 Figures
 More semantics than <img>
@@ -94,6 +107,65 @@ A section that contains info such as copyright data, related documents, and link
   <a href="http://www.smarterindustrial.com">Smarter Industrial</a>
 </footer>
   
-  
-  
-  
+Icons  
+https://fontawesome.com/
+<a href="http://www.facebook.com" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+Use aria-label to properly label icons for screen readers
+
+Hyperlinks
+Links are called anchor links hence <a> tag
+Types of links:
+Absolute - full url (use when linking to external page)
+Relative - link to file relative to current folder
+Internal - can also link to a different location in the same file by using # (e.g., #section)
+Graphical
+
+Anchors can take a target attribute (i.e., how it opens in browswer)
+_self - default action (same browser tab)
+_blank - open in new tab or window
+<a href="http://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook"></i></a>
+rel="noopener" is added for security purposes
+
+Multimedia
+HTML5 designed to work without having to download any extra plugins (e.g., quicktime or flash)
+<video> tag uses a src attribute
+>Common attributes: height, width, autoplay, loop, controls
+*note avoid using autoplay and loop unless absolutely necessary to avoid consuming user bandwidth
+Make sure to provide links to plugins in case browser doesn't support tags
+Include text descriptions and closed captioning
+<video src="mov.mp3" width="400" controls loop>Your browser does not support the <code>video</code> element.</video>
+>note: just having controls attribute means attribute = true
+<audio> very similar to video
+>Common attributes: autoplay, loop, controls, buffered, muted, volume
+>you can set both the video and audio elements to play clips by adding to the src attribute 
+(e.g., .ext#t=42 - start at 42 sec and play from there, .ext#t=5,25 - play from 5 to 25 sec, .ext#t=,1:38:45, .ext#t=,39 - play first 39 sec)
+
+Tables
+Only use tables is you are displaying data
+Design table first prior to coding
+<table> tag - container
+<tr>...</tr> - rows
+<td>...</td> - columns (cells)
+<th>...</th> - headings
+<table>
+  <tr><th>Column1</th><th>Column2</th><th>Column3</th></tr>
+  <tr><td>One</td><td>Two</td><td>Three</td></tr>
+  <tr><td>Four</td><td>Five</td><td>Six</td></tr>
+  <tr><td>Seven</td><td>Eight</td><td>Nine</td></tr>
+  <tr><td rowspan="3">Ten</td></tr>
+</table>
+you can combine multiple rows or columns using rowspan and colspan attributes
+
+<caption>
+Link text to a table
+
+Useful Tags
+Generic: <p>, <div>
+Semantic: <header>, <nav>, <footer>, <figure>
+Block Tags
+<hr> - hard rule - line across page
+Inline Tags
+<span> - generic, <time> - relates to time (e.g., 9:00am or new year's day), <code> - coding language, <sub> - subscript, <sup> - superscript
+
+
+
