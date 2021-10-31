@@ -167,5 +167,22 @@ Block Tags
 Inline Tags
 <span> - generic, <time> - relates to time (e.g., 9:00am or new year's day), <code> - coding language, <sub> - subscript, <sup> - superscript
 
+Accessibility
+Visual Disabilities - blindness (screen readers), low-vision (glasses), color-blindness
+>font-size, color-contrast, font-style
+Hearing Disabilities - partial to total deafness
+>closed captioning
+Motor Disabilities - inability to use a mouse or physical keyboard, slow response time, limited fine motor control
+>tab through page
+Cognitive Disabilities - learning disabilities, distractibility, dyslexia, inability to remember or focus
+
+Four principles of successful web design
+W3C WCAG 2.0 Accessibility Guidelines
+POUR: Perceivable, Operable, Understandable, Robust
+Design with accessibility in mind
+>Adhere to standards (semantics behind HTML tags)
+https://wave.webaim.org/
+http://html5accessibility.com/
+Funkify disabilty simulator (chrome extension)
 
 
