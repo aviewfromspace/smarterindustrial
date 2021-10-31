@@ -185,4 +185,8 @@ https://wave.webaim.org/
 http://html5accessibility.com/
 Funkify disabilty simulator (chrome extension)
 
+Hosting your site
+1. Domain name
+2. Hosting service
+>registered IP address
 
